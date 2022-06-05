@@ -105,11 +105,11 @@ body {
 .contact-info__item:not(:last-child) {
   margin-bottom: 20px;
 }
-svg { 
-    fill: #9eb7d9;
+svg {
+  fill: #9eb7d9;
 }
-svg:hover { 
-    fill: #ff9a0045;
+svg:hover {
+  fill: #ff9a0045;
 }
 
 .contact-info__item-icon-wrapper {
@@ -142,6 +142,38 @@ svg:hover {
 .intro {
   display: flex;
   justify-content: start;
+}
+
+/*
+.skill-level p {
+  margin-left: 3px;
+  margin-bottom: 3px;
+  display: inline-block;
+}
+
+.skill-level div {
+    margin-left: 15px;
+    display: inline-block;
+}*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  grid-gap: 5px;
+}
+
+.progress{
+    width: 500px;
+    border-color: #181820;
+}
+
+.progress-value {
+  box-shadow: 0 10px 40px -10px var(--border-color);
+  border-radius: 100px;
+  background: #9eb7d9;
+  height: 20px;  
+  margin-bottom: 4px;
+
 }
 
 .intro__icon-wrapper {
