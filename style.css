@@ -144,36 +144,23 @@ svg:hover {
   justify-content: start;
 }
 
-/*
-.skill-level p {
-  margin-left: 3px;
-  margin-bottom: 3px;
-  display: inline-block;
-}
-
-.skill-level div {
-    margin-left: 15px;
-    display: inline-block;
-}*/
-
 .grid-container {
   display: grid;
   grid-template-columns: 0.3fr 1fr;
   grid-gap: 5px;
 }
 
-.progress{
-    width: 500px;
-    border-color: #181820;
+.progress {
+  width: 500px;
+  border-color: #181820;
 }
 
 .progress-value {
   box-shadow: 0 10px 40px -10px var(--border-color);
   border-radius: 100px;
   background: #9eb7d9;
-  height: 20px;  
+  height: 20px;
   margin-bottom: 4px;
-
 }
 
 .intro__icon-wrapper {
@@ -197,27 +184,10 @@ svg:hover {
   text-align: justify;
 }
 
-.skills__header {
+.experiences__header {
   color: var(--secondary-text-color);
   text-align: center;
   margin-bottom: 15px;
-}
-
-.skills__text {
-  color: var(--secondary-text-color);
-  text-align: justify;
-}
-
-/*------Experience and additonal info styles-----*/
-.experiences {
-  flex: 1 1 60%;
-  margin-right: 50px;
-}
-
-.experiences__header {
-  color: var(--secondary-text-color);
-  text-align: left;
-  margin-bottom: 20px;
 }
 
 .experiences__company-header-durability {
@@ -256,6 +226,23 @@ svg:hover {
 .experiences__company-project-responsibilities {
   color: var(--secondary-text-color);
   padding-left: 20px;
+}
+
+/*------Skills and additonal info styles-----*/
+.skills {
+  flex: 1 1 60%;
+  margin-right: 40px;
+}
+
+.skills__header {
+  color: var(--secondary-text-color);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.skills__text {
+  color: var(--secondary-text-color);
+  text-align: justify;
 }
 
 .additional-info {
